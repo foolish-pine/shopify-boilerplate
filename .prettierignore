@@ -1,0 +1,4 @@
+node_modules
+shopify/
+assets/**/*.css
+assets/**/*.js
