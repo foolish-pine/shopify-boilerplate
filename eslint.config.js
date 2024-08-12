@@ -1,7 +1,6 @@
 import shopifyEslintPlugin from "@shopify/eslint-plugin";
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default [
+const config = [
   {
     ignores: ["assets/**"],
   },
@@ -16,3 +15,5 @@ export default [
   },
   ...shopifyEslintPlugin.configs.prettier,
 ];
+
+export default config;
