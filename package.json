@@ -74,37 +74,20 @@
     "cpx": "^1.5.0",
     "eslint": "^8.57.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "lint-staged": "^15.2.2",
+    "lefthook": "^1.7.12",
     "npm-run-all2": "^6.2.2",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
-    "simple-git-hooks": "^2.9.0",
     "stylelint": "^16.8.1",
     "stylelint-config-recess-order": "^5.0.1",
     "typescript": "^5.3.3"
   },
-  "browserslist": [
-    "extends @shopify/browserslist-config"
-  ],
   "volta": {
     "node": "20.11.0"
   },
-  "lint-staged": {
-    "src/**/*.ts": [
-      "eslint --fix --quiet",
-      "prettier -w --log-level=error"
-    ],
-    "src/**/*.css": [
-      "stylelint --fix --quiet",
-      "prettier -w --log-level=error"
-    ],
-    "*.{json,jsonc}": [
-      "prettier -w --log-level=error"
-    ]
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
-  }
+  "browserslist": [
+    "extends @shopify/browserslist-config"
+  ]
 }

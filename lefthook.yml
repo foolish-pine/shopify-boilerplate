@@ -1,0 +1,11 @@
+pre-commit:
+  piped: true
+  commands:
+    1_eslint:
+      glob: '*.{js,cjs,mjs,ts}'
+      run: npx eslint --fix --quiet {staged_files}
+    2_stylelint:
+      glob: '*.css'
+      run: npx stylelint --fix --quiet {staged_files}
+    3_prettier:
+      run: npx prettier --write --log-level=error {staged_files}
