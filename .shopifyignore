@@ -13,6 +13,6 @@ lefthook.yml
 package-lock.json
 package.json
 postcss.config.cjs
-stylelint.config.cjs
 README.md
+stylelint.config.cjs
 tsconfig.json

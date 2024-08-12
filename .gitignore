@@ -1,18 +1,10 @@
-# OS generated files
+# macOS-specific files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
 # Dependency directories
 node_modules/
 
 # Logs
-logs
-*.log
 npm-debug.log*
 
 # dotenv environment variables file

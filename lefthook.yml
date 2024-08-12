@@ -8,4 +8,4 @@ pre-commit:
       glob: '*.css'
       run: npx stylelint --fix --quiet {staged_files}
     3_prettier:
-      run: npx prettier --write --log-level=error {staged_files}
+      run: npx prettier --write --ignore-unknown --log-level=error {staged_files}
