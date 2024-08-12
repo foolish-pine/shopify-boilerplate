@@ -85,9 +85,9 @@
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
-    "stylelint": "^16.2.1",
-    "stylelint-config-recess-order": "^4.6.0",
-    "stylelint-config-standard": "^36.0.0",
+    "stylelint": "^16.8.1",
+    "stylelint-config-recess-order": "^5.0.1",
+    "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.3.3"
   },
   "volta": {
