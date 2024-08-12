@@ -1,4 +1,3 @@
 node_modules
-shopify/
-assets/**/*.css
-assets/**/*.js
+assets
+package-lock.json
