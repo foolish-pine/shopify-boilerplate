@@ -1,5 +1,8 @@
 .test-class {
   font-size: 14px;
   color: red;
-  background-color: #fff;
+
+  ::before {
+    content: '';
+  }
 }
