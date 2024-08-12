@@ -1,1 +1,8 @@
-.test-class{background-color:#fff;color:red;font-size:14px}
+.test-class {
+  font-size: 14px;
+  color: red;
+
+  ::before {
+    content: '';
+  }
+}

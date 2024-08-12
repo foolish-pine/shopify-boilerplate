@@ -1,4 +1,5 @@
 "use strict";
 
-const hello = "Hello";
-console.log(hello);
+const hello = 'Hello';
+
+// console.log(hello);
