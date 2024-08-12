@@ -1,1 +1,4 @@
-"use strict";const hello="Hello";console.log("Hello");
+"use strict";
+
+const hello = "Hello";
+console.log(hello);
