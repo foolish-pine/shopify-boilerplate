@@ -9,3 +9,6 @@ pre-commit:
       run: npx stylelint --fix --quiet {staged_files}
     3_prettier:
       run: npx prettier --write --ignore-unknown --log-level=error {staged_files}
+    4_typescript:
+      glob: '*.ts'
+      run: npx tsc --noEmit
