@@ -12,3 +12,6 @@ pre-commit:
     4_typescript:
       glob: "*.ts"
       run: npx tsc --noEmit
+    5_theme-check:
+      glob: "*.liquid"
+      run: npx shopify theme check
