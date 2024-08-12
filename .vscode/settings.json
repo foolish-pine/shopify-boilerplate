@@ -6,7 +6,8 @@
   },
   "css.validate": false,
   "stylelint.validate": ["css"],
-  "eslint.validate": ["typescript"],
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.useFlatConfig": true,
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
