@@ -63,6 +63,7 @@
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-typescript": "^7.23.3",
+    "@shopify/browserslist-config": "^3.0.0",
     "@shopify/cli": "^3.65.3",
     "@shopify/prettier-plugin-liquid": "^1.5.0",
     "@shopify/theme": "^3.58.2",
@@ -90,6 +91,9 @@
     "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.3.3"
   },
+  "browserslist": [
+    "extends @shopify/browserslist-config"
+  ],
   "volta": {
     "node": "20.11.0"
   },
