@@ -3,6 +3,6 @@
   color: red;
 
   ::before {
-    content: '';
+    content: "";
   }
 }

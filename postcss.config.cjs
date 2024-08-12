@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: [require('@shopify/postcss-plugin')],
+  plugins: [require("@shopify/postcss-plugin")],
 };

@@ -9,7 +9,7 @@
   "eslint.validate": ["javascript", "typescript"],
   "eslint.useFlatConfig": true,
   "[liquid]": {
-    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -26,5 +26,5 @@
   "[yml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emmet.includeLanguages": {"liquid": "html"}
+  "emmet.includeLanguages": { "liquid": "html" }
 }
