@@ -1,20 +1,8 @@
 {
+  "extends": "@shopify/typescript-configs/library.json",
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "lib": ["es2020", "dom"],
-    "sourceMap": true,
-    "rootDir": "./src",
-    "strict": true,
-    "moduleResolution": "node",
-    "baseUrl": "src",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "rootDir": "."
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"],
-  "compileOnSave": false,
+  "include": ["./src/**/*"]
 }

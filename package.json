@@ -66,6 +66,7 @@
     "@shopify/cli": "^3.65.3",
     "@shopify/prettier-plugin-liquid": "^1.5.0",
     "@shopify/theme": "^3.58.2",
+    "@shopify/typescript-configs": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "autoprefixer": "^10.4.20",
