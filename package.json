@@ -49,7 +49,7 @@
     "@shopify/stylelint-plugin": "^14.0.0",
     "@shopify/theme": "^3.58.2",
     "@shopify/typescript-configs": "^5.1.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "lefthook": "^1.7.12",
     "npm-run-all2": "^6.2.2",
