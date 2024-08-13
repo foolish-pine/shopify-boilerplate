@@ -1,0 +1,27 @@
+name: Verify
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+      - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4
+        with:
+          node-version-file: package.json
+      - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+      - name: Install Node packages
+        run: npm install
+      - name: Lint files
+        run: npm run lint
+      - name: Check types
+        run: npm run type-check
+      - name: Check Shopify theme
+        run: npm run theme-check
