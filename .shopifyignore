@@ -16,5 +16,6 @@ package-lock.json
 package.json
 postcss.config.cjs
 README.md
+renovate.json
 stylelint.config.cjs
 tsconfig.json
