@@ -15,6 +15,7 @@
     "watch:babel": "npm run babel -- -w",
     "watch:postcss": "npm run postcss -- -w",
     "type-check": "tsc --noEmit",
+    "theme-check": "shopify theme check",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint \"**/*.{js,ts}\"",
     "lint:stylelint": "stylelint \"**/*.css\"",
