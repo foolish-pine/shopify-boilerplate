@@ -1,4 +1,5 @@
 import shopifyEslintPlugin from "@shopify/eslint-plugin";
+import simpleImportSort from "eslint-plugin-simple-import-sort";
 
 const config = [
   {
@@ -11,6 +12,13 @@ const config = [
       parserOptions: {
         project: "tsconfig.json",
       },
+    },
+    plugins: {
+      "simple-import-sort": simpleImportSort,
+    },
+    rules: {
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
     },
   },
   ...shopifyEslintPlugin.configs.prettier,
