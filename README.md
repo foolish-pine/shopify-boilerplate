@@ -1,6 +1,6 @@
 # shopify-boilerplate
 
-`shopify-boilerplate` is a starter kit for Shopify theme development.
+A starter kit for Shopify theme development.
 
 ## Features
 
@@ -30,7 +30,7 @@ Rename the `.env.example` file to `.env`, and replace `YOUR_STORE_NAME` with you
 SHOPIFY_FLAG_STORE=YOUR_STORE_NAME
 ```
 
-This repository does not include any Shopify themes. You will need to add the theme files yourself. If you are creating a new theme, it is recommended to use [Dawn](https://github.com/Shopify/dawn) as a starting point (See the "[Getting started](https://github.com/Shopify/dawn?tab=readme-ov-file#getting-started)" section).
+This repository does not include any Shopify themes. You will need to add the theme files yourself. If you are creating a new theme, [it is recommended to use Dawn as a starting point.](https://github.com/Shopify/dawn?tab=readme-ov-file#getting-started)
 
 ## Available Commands
 
