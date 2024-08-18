@@ -39,7 +39,7 @@
     "@shopify/typescript-configs": "5.1.0",
     "eslint": "8.57.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "lefthook": "1.7.13",
+    "lefthook": "1.7.14",
     "npm-run-all2": "6.2.2",
     "postcss": "8.4.41",
     "postcss-cli": "11.0.0",
