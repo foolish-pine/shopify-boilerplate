@@ -26,7 +26,7 @@
     "fix:prettier": "prettier --write ."
   },
   "devDependencies": {
-    "@babel/cli": "7.24.8",
+    "@babel/cli": "7.25.6",
     "@babel/core": "7.25.2",
     "@shopify/babel-preset": "25.0.0",
     "@shopify/browserslist-config": "3.0.0",
