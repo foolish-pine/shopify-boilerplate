@@ -4,11 +4,10 @@
 node_modules
 src
 .editorconfig
-.env*
+.env\*
 .gitignore
 .prettierignore
 .prettierrc.json
-.ruby-version
 babel.config.json
 eslint.config.js
 lefthook.yml

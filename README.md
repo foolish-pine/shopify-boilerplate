@@ -14,7 +14,6 @@ A starter kit for Shopify theme development.
 ## Requirements
 
 - [Volta](https://volta.sh/)
-- [rbenv](https://github.com/rbenv/rbenv)
 
 ## How to use
 
