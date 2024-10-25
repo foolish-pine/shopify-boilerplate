@@ -34,7 +34,7 @@
     "@shopify/eslint-plugin": "46.0.0",
     "@shopify/postcss-plugin": "5.0.2",
     "@shopify/prettier-plugin-liquid": "1.5.2",
-    "@shopify/stylelint-plugin": "14.0.0",
+    "@shopify/stylelint-plugin": "15.0.0",
     "@shopify/theme": "3.58.2",
     "@shopify/typescript-configs": "5.1.0",
     "eslint": "8.57.1",
