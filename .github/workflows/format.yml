@@ -5,6 +5,8 @@ jobs:
   format:
     name: Format
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     if: github.actor == 'shopify[bot]'
     steps:
       - name: Checkout code
