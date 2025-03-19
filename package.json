@@ -31,7 +31,7 @@
     "@shopify/babel-preset": "25.0.0",
     "@shopify/browserslist-config": "3.0.0",
     "@shopify/cli": "3.76.2",
-    "@shopify/eslint-plugin": "47.0.1",
+    "@shopify/eslint-plugin": "48.0.0",
     "@shopify/postcss-plugin": "5.0.2",
     "@shopify/prettier-plugin-liquid": "1.9.0",
     "@shopify/stylelint-plugin": "15.0.0",
