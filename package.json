@@ -36,7 +36,7 @@
     "@shopify/prettier-plugin-liquid": "1.9.0",
     "@shopify/stylelint-plugin": "15.0.2",
     "@shopify/theme": "3.58.2",
-    "@shopify/typescript-configs": "5.1.0",
+    "@shopify/typescript-configs": "5.1.2",
     "eslint": "8.57.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "lefthook": "1.11.3",
