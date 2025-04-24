@@ -33,7 +33,7 @@
     "@shopify/cli": "3.78.1",
     "@shopify/eslint-plugin": "48.0.2",
     "@shopify/postcss-plugin": "5.0.4",
-    "@shopify/prettier-plugin-liquid": "1.9.2",
+    "@shopify/prettier-plugin-liquid": "1.9.3",
     "@shopify/stylelint-plugin": "15.0.2",
     "@shopify/theme": "3.58.2",
     "@shopify/typescript-configs": "5.1.2",
