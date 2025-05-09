@@ -1,17 +1,21 @@
 pre-commit:
-  piped: true
-  commands:
-    1_eslint:
-      glob: "*.{js,cjs,mjs,ts}"
-      run: npx eslint --fix --quiet {staged_files}
-    2_stylelint:
-      glob: "*.css"
-      run: npx stylelint --fix --quiet {staged_files}
-    3_prettier:
-      run: npx prettier --write --ignore-unknown --log-level=error {staged_files}
-    4_typescript:
+  parallel: true
+  jobs:
+    - name: lint-and-format
+      group:
+        piped: true
+        jobs:
+          - group:
+              parallel: true
+              jobs:
+                - run: npm run fix:eslint {staged_files}
+                  glob: "*.{js,cjs,mjs,ts}"
+                - run: npm run fix:stylelint {staged_files}
+                  glob: "*.css"
+          - run: npm run fix:prettier --files={staged_files}
+    - name: type-check
+      run: npm run type-check
       glob: "*.ts"
-      run: npx tsc --noEmit
-    5_theme-check:
+    - name: validate-theme
+      run: npm run theme-check
       glob: "*.liquid"
-      run: npx shopify theme check
