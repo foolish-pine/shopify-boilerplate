@@ -17,13 +17,13 @@
     "type-check": "tsc --noEmit",
     "theme-check": "shopify theme check",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint \"**/*.{js,ts}\"",
-    "lint:stylelint": "stylelint \"**/*.css\"",
-    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint '**/*.{js,cjs,mjs,ts}'",
+    "lint:stylelint": "stylelint '**/*.css'",
+    "lint:prettier": "prettier ${npm_config_files:-.} --check",
     "fix": "run-s fix:{eslint,stylelint,prettier}",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:stylelint": "npm run lint:stylelint -- --fix",
-    "fix:prettier": "prettier --write ."
+    "fix:prettier": "npm run lint:prettier -- --write"
   },
   "devDependencies": {
     "@babel/cli": "7.27.2",
