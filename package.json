@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.27.2",
-    "@babel/core": "7.27.1",
+    "@babel/core": "7.27.4",
     "@shopify/babel-preset": "25.0.2",
     "@shopify/browserslist-config": "3.0.2",
     "@shopify/cli": "3.80.7",
